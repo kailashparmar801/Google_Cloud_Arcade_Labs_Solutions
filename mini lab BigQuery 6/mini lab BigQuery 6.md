@@ -5,11 +5,15 @@
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
 ```
-curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/mini%20lab%20BigQuery%206/shell.sh
+PROJECT_ID=$(gcloud config get-value project)
+REGION="us"
 
-sudo chmod +x *.sh
+gcloud iam service-accounts add-iam-policy-binding ${PROJECT_ID}@${PROJECT_ID}.iam.gserviceaccount.com \
+--role='roles/iam.serviceAccountTokenCreator'
 
-./*.sh
+sleep 20
+
+bq mk --transfer_config --project_id="${PROJECT_ID}" --target_dataset=ecommerce --display_name="Monthly Customer Orders Backup" --params='{"query":"SELECT * FROM `'${PROJECT_ID}'.ecommerce.customer_orders`", "destination_table_name_template":"backup_orders", "write_disposition":"WRITE_TRUNCATE"}' --data_source=scheduled_query --schedule="1 of month 00:00" --location="${REGION}"
 ```
 
 # 🎉 Woohoo! You Did It! 🎉
