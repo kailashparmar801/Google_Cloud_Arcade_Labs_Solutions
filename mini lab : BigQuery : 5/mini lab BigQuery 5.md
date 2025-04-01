@@ -5,11 +5,13 @@
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
 ```
-curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/mini%20lab%20BigQuery%205/shell.sh
+PROJECT_ID=$(gcloud config get-value project)
 
-sudo chmod +x *.sh
+bq load --autodetect --source_format=CSV customer_details.customers customers.csv
 
-./*.sh
+bq query --use_legacy_sql=false 'CREATE OR REPLACE TABLE customer_details.male_customers AS SELECT CustomerID, Gender FROM customer_details.customers WHERE Gender = "Male"'
+
+bq extract --destination_format=CSV customer_details.male_customers gs://${PROJECT_ID}-bucket/exported_male_customers.csv
 ```
 
 # 🎉 Woohoo! You Did It! 🎉
