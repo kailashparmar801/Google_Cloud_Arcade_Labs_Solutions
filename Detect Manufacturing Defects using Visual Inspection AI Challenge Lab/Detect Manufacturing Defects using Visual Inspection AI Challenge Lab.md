@@ -23,6 +23,6 @@ sudo chmod +x gsp366.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](t.me/Microsoft_Student_Developer_Com)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Kailash Parmar](https://www.youtube.com/@kailash_parmar)
