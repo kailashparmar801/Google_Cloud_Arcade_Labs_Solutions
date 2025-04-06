@@ -20,4 +20,4 @@ sudo chmod +x gsp651.sh
 
 #### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Kailash Parmar](https://www.youtube.com/@kailash_parmar)
