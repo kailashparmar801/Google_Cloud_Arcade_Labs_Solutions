@@ -1,5 +1,5 @@
 
-## 🚀 Google Cloud Fundamentals: Getting Started with GKE | [Lab Link](https://www.cloudskillsboost.google/focuses/19067?parent=catalog)
+## 🚀 Google Cloud Speech-to-Text API: Qwik Start  | [Lab Link](https://www.cloudskillsboost.google/games/6059/labs/38582)
 
 ### 🔗 **Solution Video:** [Watch Here](https://youtu.be/WCZ0ppeUQI4)
 
@@ -17,9 +17,13 @@ Start your Google CloudShell session by [clicking here](https://console.cloud.go
 
 
 ```bash
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Google%20Cloud%20Fundamentals%20Getting%20Started%20with%20GKE/quicklab.sh
-sudo chmod +x quicklab.sh
-./quicklab.sh
+export API_KEY=
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Google%20Cloud%20Speech%20to%20Text%20API%20Qwik%20Start/quicklabgsp119.sh
+
+sudo chmod +x quicklabgsp119.sh
+
+./quicklabgsp119.sh
 ```
 - This runs the script to set up your environment for the lab. It will provision resources and configure them as needed.
 ---
@@ -46,4 +50,4 @@ You've successfully completed the lab! Great job on working through the process.
 
 **Keep up the great work and continue your learning journey!**
 
-# [QUICKLAB☁️](https://www.youtube.com/@quick_lab) - Don't Forget to Subscribe!
+# [Kailash Parmar](https://www.youtube.com/@kailash_parmar) - Don't Forget to Subscribe!
