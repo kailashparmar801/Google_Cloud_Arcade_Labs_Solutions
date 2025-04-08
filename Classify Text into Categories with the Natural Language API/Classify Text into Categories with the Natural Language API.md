@@ -1,15 +1,18 @@
-# Setting Up Cost Control with Quota || [GSP651](https://www.cloudskillsboost.google/focuses/7847?parent=catalog) ||
+# Classify Text into Categories with the Natural Language API || [GSP063](https://www.cloudskillsboost.google/games/6059/labs/38587) ||
 
 ## Solution [here](https://youtu.be/wJGmUvobY-4)
 
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Setting%20Up%20Cost%20Control%20with%20Quota/gsp651.sh
+export KEY=
 
-sudo chmod +x gsp651.sh
 
-./gsp651.sh
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Classify%20Text%20into%20Categories%20with%20the%20Natural%20Language%20API/quicklabgsp063.sh
+
+sudo chmod +x quicklabgsp063.sh
+
+./quicklabgsp063.sh
 ```
 
 ### Congratulations 🎉 for Completing the Lab !
