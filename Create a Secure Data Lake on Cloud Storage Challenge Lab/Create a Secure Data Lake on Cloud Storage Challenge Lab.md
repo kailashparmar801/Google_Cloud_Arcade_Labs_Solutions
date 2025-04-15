@@ -62,14 +62,10 @@ sudo chmod +x form2.sh
 ### Run the following Commands in CloudShell
 
 ```
-export ZONE=
-```
-```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage%20Challenge%20Lab/form3.sh
+curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/%5BForm%203%5D%20Secure%20Data%20Lake%20on%20Cloud%20Storage%20-%20Challenge%20Lab/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
 
-sudo chmod +x form3.sh
-
-./form3.sh
 ```
 
 * **For Task 4. Follow Video's Instruction from [here](https://youtu.be/HxznRWJFxgA?t=97)**
