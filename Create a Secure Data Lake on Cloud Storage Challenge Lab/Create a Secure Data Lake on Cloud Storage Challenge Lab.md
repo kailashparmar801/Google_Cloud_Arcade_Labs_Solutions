@@ -14,14 +14,10 @@
 ### Run the following Commands in CloudShell
 
 ```
-export ZONE=
-```
-```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage%20Challenge%20Lab/form1.sh
+curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/%5BForm%201%5D%20Secure%20Data%20Lake%20on%20Cloud%20Storage%20-%20Challenge%20Lab/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
 
-sudo chmod +x form1.sh
-
-./form1.sh
 ```
 
 * **Now check your progress, You will get score for all tasks...**
@@ -38,14 +34,10 @@ sudo chmod +x form1.sh
 ### Run the following Commands in CloudShell
 
 ```
-export ZONE=
-```
-```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage%20Challenge%20Lab/form2.sh
+curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/%5BForm%202%5D%20Secure%20Data%20Lake%20on%20Cloud%20Storage%20-%20Challenge%20Lab/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
 
-sudo chmod +x form2.sh
-
-./form2.sh
 ```
 
 * **Now check your progress, You will get score for all tasks..**
@@ -82,14 +74,10 @@ sudo chmod +x arcadecrew.sh
 ### Run the following Commands in CloudShell
 
 ```
-export ZONE=
-```
-```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage%20Challenge%20Lab/form4.sh
+curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/%5BForm%204%5D%20Secure%20Data%20Lake%20on%20Cloud%20Storage%20-%20Challenge%20Lab/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
 
-sudo chmod +x form4.sh
-
-./form4.sh
 ```
 
 * **For Task 4. Follow Video's Instruction from [here](https://youtu.be/tK9bk6wG0aQ?t=65)**
@@ -102,4 +90,4 @@ sudo chmod +x form4.sh
 
 #### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Kailash Parmar](https://www.youtube.com/@kailash_parmar)
