@@ -65,7 +65,7 @@ sudo chmod +x arcadecrew.sh
 
 ```
 
-* **For Task 4. Follow Video's Instruction from [here](https://youtu.be/HxznRWJFxgA?t=97)**
+* **For Task 4. Follow Video's Instruction from [here](https://youtu.be/7xQaz5KlZW0)**
 ---
 
 ### For form 4: Solution [here](https://youtu.be/7xQaz5KlZW0)
