@@ -25,4 +25,4 @@ You've successfully completed the lab. **Way to go!** 🚀
 📢 [Telegram Channel](https://t.me/quickgcplab)
 👥 [Discussion Group](https://t.me/quickgcplabchats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Kailash Parmar](https://www.youtube.com/@kailash_parmar)
