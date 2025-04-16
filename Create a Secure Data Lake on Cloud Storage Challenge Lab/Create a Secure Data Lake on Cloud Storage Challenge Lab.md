@@ -28,7 +28,7 @@ sudo chmod +x form1.sh
 * **Now check your progress, You will get score for all tasks...**
 ---
 
-### For form 2: Solution [here]()
+### For form 2: Solution [here](https://youtu.be/egx3yJAQ6tQ?si=C5WqmpnVHxm-YTas)
 ---
 
 * **Task 1. Create a lake in Dataplex and add a zone to your .**
