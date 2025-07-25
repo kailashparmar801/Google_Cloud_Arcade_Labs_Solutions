@@ -16,9 +16,9 @@
 ## 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Connect%20to%20Cloud%20SQL%20from%20an%20Application%20in%20Google%20Kubernetes%20Engine/techcps449.sh
-sudo chmod +x techcps449.sh
-./techcps449.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Connect%20to%20Cloud%20SQL%20from%20an%20Application%20in%20Google%20Kubernetes%20Engine/KPGSP449.sh
+sudo chmod +x KPGSP449.sh
+./KPGSP449.sh
 ```
 ---
 
