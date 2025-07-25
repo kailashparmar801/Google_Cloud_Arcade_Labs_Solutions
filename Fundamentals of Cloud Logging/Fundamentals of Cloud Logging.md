@@ -17,8 +17,8 @@
 
 ```
 curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/blob/main/Fundamentals%20of%20Cloud%20Logging/Fundamentals%20of%20Cloud%20Logging.sh
-sudo chmod +x Fundamentals of Cloud Logging.sh
-./Fundamentals of Cloud Logging.sh
+sudo chmod +x Fundamentals%20of%20Cloud%20Logging.sh
+./Fundamentals%20of%20Cloud%20Logging.sh
 ```
 
 ---
