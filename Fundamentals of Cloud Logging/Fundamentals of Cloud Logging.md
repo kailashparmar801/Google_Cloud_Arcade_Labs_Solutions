@@ -16,9 +16,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Fundamentals%20of%20Cloud%20Logging/techcps610.sh
-sudo chmod +x techcps610.sh
-./techcps610.sh
+curl -LO raw.githubusercontent.com//kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Fundamentals%20of%20Cloud%20Logging/Fundamentals of Cloud Logging.sh
+sudo chmod +x Fundamentals of Cloud Logging.sh
+./Fundamentals of Cloud Logging.sh
 ```
 
 ---
