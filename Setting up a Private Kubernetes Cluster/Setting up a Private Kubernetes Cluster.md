@@ -4,15 +4,11 @@
 
 ### Run the following Commands in CloudShell
 
-```
-export ZONE=
-```
-```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Setting%20up%20a%20Private%20Kubernetes%20Cluster/gsp178.sh
 
-sudo chmod +x gsp178.sh
-
-./gsp178.sh
+```
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Setting%20up%20a%20Private%20Kubernetes%20Cluster/techcps178.sh
+sudo chmod +x techcps178.sh
+./techcps178.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !
