@@ -16,9 +16,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Dataplex%3A%20Qwik%20Start%20-%20Console/techcps1143.sh
-sudo chmod +x techcps1143.sh
-./techcps1143.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Dataplex%3A%20Qwik%20Start%20-%20Console/KPGSP1143.sh
+sudo chmod +x KPGSP1143.sh
+./KPGSP1143.sh
 ```
 
 ---
