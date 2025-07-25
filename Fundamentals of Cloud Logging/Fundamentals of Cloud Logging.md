@@ -16,7 +16,7 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/blob/main/Fundamentals%20of%20Cloud%20Logging/Fundamentals%20of%20Cloud%20Logging.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Fundamentals%20of%20Cloud%20Logging/Fundamentals%20of%20Cloud%20Logging.sh
 sudo chmod +x Fundamentals%20of%20Cloud%20Logging.sh
 ./Fundamentals%20of%20Cloud%20Logging.sh
 ```
