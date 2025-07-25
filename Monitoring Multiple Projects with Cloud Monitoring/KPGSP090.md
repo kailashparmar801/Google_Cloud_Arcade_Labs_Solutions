@@ -25,9 +25,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Monitoring%20Multiple%20Projects%20with%20Cloud%20Monitoring/techcps090.sh
-sudo chmod +x techcps090.sh
-./techcps090.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Monitoring%20Multiple%20Projects%20with%20Cloud%20Monitoring/KPGSP090.sh
+sudo chmod +x KPGSP090.sh
+./KPGSP090.sh
 ```
 
 ---
