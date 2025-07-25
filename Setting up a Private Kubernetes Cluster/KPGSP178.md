@@ -16,9 +16,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Setting%20up%20a%20Private%20Kubernetes%20Cluster/techcps178.sh
-sudo chmod +x techcps178.sh
-./techcps178.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Setting%20up%20a%20Private%20Kubernetes%20Cluster/KPGSP178.sh
+sudo chmod +x KPGSP178.sh
+./KPGSP178.sh
 ```
 
 ---
