@@ -17,9 +17,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20Scheduler%3A%20Qwik%20Start/techcps401.sh
-sudo chmod +x techcps401.sh
-./techcps401.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Cloud%20Scheduler%3A%20Qwik%20Start/CloudSchedulerQwikStart.sh
+sudo chmod +x CloudSchedulerQwikStart.sh
+./CloudSchedulerQwikStart.sh
 ```
 
 ---
