@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash kkkk
 # Define color variables
 
 BLACK=`tput setaf 0`
