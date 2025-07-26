@@ -18,9 +18,9 @@
 
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Create%20a%20Python%20Artifact%20Registry%20and%20Upload%20Code/techcps.sh
-sudo chmod +x techcps.sh
-./techcps.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Create%20a%20Python%20Artifact%20Registry%20and%20Upload%20Code/KPGCP.sh
+sudo chmod +x KPGCP.sh
+./KPGCP.sh
 ```
 ---
 
