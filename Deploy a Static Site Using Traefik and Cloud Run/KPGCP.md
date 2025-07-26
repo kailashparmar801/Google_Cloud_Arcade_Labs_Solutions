@@ -18,9 +18,9 @@
 
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Deploy%20a%20Static%20Site%20Using%20Traefik%20and%20Cloud%20Run/techcps.sh
-sudo chmod +x techcps.sh
-./techcps.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Deploy%20a%20Static%20Site%20Using%20Traefik%20and%20Cloud%20Run/KPGCP.sh
+sudo chmod +x KPGCP.sh
+./KPGCP.sh
 ```
 ---
 
