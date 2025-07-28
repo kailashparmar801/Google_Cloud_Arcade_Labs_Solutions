@@ -17,9 +17,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20Storage%3A%20Qwik%20Start%20-%20Cloud%20Console/techcps073.sh
-sudo chmod +x techcps073.sh
-./techcps073.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Cloud%20Storage%3A%20Qwik%20Start%20-%20Cloud%20Console/KPGSP073.sh
+sudo chmod +x KPGSP073.sh
+./KPGSP073.sh
 ```
 
 ---
