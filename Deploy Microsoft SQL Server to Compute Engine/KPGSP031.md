@@ -17,9 +17,9 @@
 
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Deploy%20Microsoft%20SQL%20Server%20to%20Compute%20Engine/techcps031.sh
-sudo chmod +x techcps031.sh
-./techcps031.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Deploy%20Microsoft%20SQL%20Server%20to%20Compute%20Engine/KPGSP031.sh
+sudo chmod +x KPGSP031.sh
+./KPGSP031.sh
 ```
 ---
 
