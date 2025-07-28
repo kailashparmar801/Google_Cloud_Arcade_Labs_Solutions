@@ -15,9 +15,9 @@
 
 ### 🚨Copy and run the below commands in Cloud Shell:
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Set%20Up%20Network%20and%20Application%20Load%20Balancers/techcps007.sh
-sudo chmod +x techcps007.sh
-./techcps007.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Set%20Up%20Network%20Load%20Balancers/KPGSP007.sh
+sudo chmod +x KPGSP007.sh
+./KPGSP007.sh
 ```
 
 ---
