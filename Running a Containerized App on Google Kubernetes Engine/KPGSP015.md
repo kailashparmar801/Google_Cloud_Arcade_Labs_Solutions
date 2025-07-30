@@ -17,9 +17,9 @@
 
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Running%20a%20Containerized%20App%20on%20Google%20Kubernetes%20Engine/techcps015.sh
-sudo chmod +x techcps015.sh
-./techcps015.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Running%20a%20Containerized%20App%20on%20Google%20Kubernetes%20Engine/KPGSP015.sh
+sudo chmod +x KPGSP015.sh
+./KPGSP015.sh
 ```
 ---
 
@@ -38,7 +38,7 @@ sudo chmod +x techcps015.sh
 
 ---
 
-# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Techcps](https://www.youtube.com/@techcps) Don't Forget to like share & subscribe
+# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Kailash Parmar](https://www.youtube.com/@kailash_parmar) Don't Forget to like share & subscribe
 
 ### Thanks for watching and stay connected :)
 ---
