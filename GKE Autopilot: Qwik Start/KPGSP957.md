@@ -23,9 +23,9 @@ https://github.com/subfuzion/voting-demo.git
 
 
 ```
-curl -LO https://raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/GKE%20Autopilot%20Qwik%20Start/techcps957.sh
+curl -LO https://raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/GKE%20Autopilot%3A%20Qwik%20Start/KPGSP957.sh
 
-source techcps957.sh
+source KPGSP957.sh
 ```
 ---
 
@@ -44,7 +44,7 @@ source techcps957.sh
 
 ---
 
-# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Techcps](https://www.youtube.com/@techcps) Don't Forget to like share & subscribe
+# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Kailash Parmar](https://www.youtube.com/@kailash_parmar) Don't Forget to like share & subscribe
 
 ### Thanks for watching and stay connected :)
 ---
