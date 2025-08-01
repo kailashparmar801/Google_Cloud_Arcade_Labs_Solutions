@@ -5,7 +5,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Orchestrating%20the%20Cloud%20with%20Kubernetes/KPGSP021.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Orchestrating%20the%20Cloud%20with%20Kubernetes/KPGSP021.sh
 
 sudo chmod +x KPGSP021.sh
 
