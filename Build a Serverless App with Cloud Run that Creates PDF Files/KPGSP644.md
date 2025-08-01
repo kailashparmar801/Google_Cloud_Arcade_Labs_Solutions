@@ -17,9 +17,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Build%20a%20Serverless%20App%20with%20Cloud%20Run%20that%20Creates%20PDF%20Files/techcps644.sh
-sudo chmod +x techcps644.sh
-./techcps644.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Build%20a%20Serverless%20App%20with%20Cloud%20Run%20that%20Creates%20PDF%20Files/KPGSP644.sh
+sudo chmod +x KPGSP644.sh
+./KPGSP644.sh
 ```
 
 ---
@@ -39,7 +39,7 @@ sudo chmod +x techcps644.sh
 
 ---
 
-# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Techcps](https://www.youtube.com/@techcps) Don't Forget to like share & subscribe
+# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Kailash Parmar](https://www.youtube.com/@kailash_parmar) Don't Forget to like share & subscribe
 
 ### Thanks for watching and stay connected :)
 ---
