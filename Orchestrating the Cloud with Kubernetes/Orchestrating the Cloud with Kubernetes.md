@@ -3,15 +3,13 @@
 ## Solution [here](https://youtu.be/exRI9MwthuM)
 
 ### Run the following Commands in CloudShell
-```
-export ZONE=
-```
-```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Orchestrating%20the%20Cloud%20with%20Kubernetes/gsp021.sh
 
-sudo chmod +x gsp021.sh
+```
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Orchestrating%20the%20Cloud%20with%20Kubernetes/KPGSP021.sh
 
-./gsp021.sh
+sudo chmod +x KPGSP021.sh
+
+./KPGSP021.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !
@@ -22,4 +20,4 @@ sudo chmod +x gsp021.sh
 
 #### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Kailash Parmar](https://www.youtube.com/@kailash_parmar)
