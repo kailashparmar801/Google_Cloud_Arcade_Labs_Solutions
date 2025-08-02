@@ -15,9 +15,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Continuous%20Delivery%20with%20Google%20Cloud%20Deploy/quicklabgsp1079.sh
-sudo chmod +x quicklabgsp1079.sh
-./quicklabgsp1079.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Continuous%20Delivery%20with%20Google%20Cloud%20Deploy/KPGSP1079.sh
+sudo chmod +x KPGSP1079.sh
+./KPGSP1079.sh
 ```
 
 ---
