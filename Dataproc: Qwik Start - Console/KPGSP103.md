@@ -17,9 +17,9 @@
 
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Dataproc%20Qwik%20Start%20Console/techcps103.sh
-sudo chmod +x techcps103.sh
-./techcps103.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Dataproc%3A%20Qwik%20Start%20-%20Console/KPGSP103.sh
+sudo chmod +x KPGSP103.sh
+./KPGSP103.sh
 ```
 ---
 
