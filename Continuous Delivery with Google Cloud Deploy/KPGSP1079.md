@@ -1,6 +1,5 @@
 
-### 💡 Lab Link: [Continuous Delivery with Google Cloud Deploy - GSP1079]([https://cloudskillsboost.google/focuses/8389?parent=catalog](https://www.cloudskillsboost.google/focuses/52828?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=50084415))
-
+### 💡 Lab Link: [Continuous Delivery with Google Cloud Deploy - GSP1079](https://www.cloudskillsboost.google/focuses/52828?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=50084415)
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/EyETFR5iHBs)
 
 ---
