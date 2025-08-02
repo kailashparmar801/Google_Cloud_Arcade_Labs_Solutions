@@ -17,9 +17,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20Spanner%20-%20Database%20Fundamentals/techcps1048.sh
-sudo chmod +x techcps1048.sh
-./techcps1048.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Cloud%20Spanner%20-%20Database%20Fundamentals/KPGSP1048.sh
+sudo chmod +x KPGSP1048.sh
+./KPGSP1048.sh
 ```
 
 ---
@@ -39,7 +39,7 @@ sudo chmod +x techcps1048.sh
 
 ---
 
-# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Techcps](https://www.youtube.com/@techcps) Don't Forget to like share & subscribe
+# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Kailash Parmar](https://www.youtube.com/@kailash_parmar) Don't Forget to like share & subscribe
 
 ### Thanks for watching and stay connected :)
 ---
