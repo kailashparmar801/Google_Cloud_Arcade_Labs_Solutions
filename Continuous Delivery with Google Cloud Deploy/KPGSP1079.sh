@@ -1,300 +1,185 @@
+#!/bin/bash
 
+ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])" 2>/dev/null)
+if [ -z "$ZONE" ]; then
+  while [ -z "$ZONE" ]; do
+    read -p "Please enter the ZONE: " ZONE
+  done
+fi
+export ZONE
 
-gcloud auth list
+REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])" 2>/dev/null)
+if [ -z "$REGION" ]; then
+  if [ -n "$ZONE" ]; then
+    REGION="${ZONE%-*}"
+  fi
+fi
+if [ -z "$REGION" ]; then
+  while [ -z "$REGION" ]; do
+    read -p "Please enter the REGION: " REGION
+  done
+fi
+export REGION
 
 export PROJECT_ID=$(gcloud config get-value project)
 
-export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
-
-export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
-
-gcloud config set compute/zone $ZONE
-
 gcloud config set compute/region $REGION
 
-gcloud pubsub topics create new-lab-report
-
-gcloud services enable run.googleapis.com
-
-git clone https://github.com/rosera/pet-theory.git
-
-cd pet-theory/lab05/lab-service
-
-npm install express
-npm install body-parser
-npm install @google-cloud/pubsub
-
-
-
-cat > package.json <<EOF_CP
-{
-  "name": "lab05",
-  "version": "1.0.0",
-  "description": "This is lab05 of the Pet Theory labs",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Patrick - IT",
-  "license": "ISC",
-  "dependencies": {
-    "@google-cloud/pubsub": "^4.0.0",
-    "body-parser": "^1.20.2",
-    "express": "^4.18.2"
-  }
-}
-EOF_CP
-
-
-
-cat > index.js <<EOF_CP
-const {PubSub} = require('@google-cloud/pubsub');
-const pubsub = new PubSub();
-const express = require('express');
-const app = express();
-const bodyParser = require('body-parser');
-app.use(bodyParser.json());
-const port = process.env.PORT || 8080;
-
-app.listen(port, () => {
-  console.log('Listening on port', port);
-});
-
-app.post('/', async (req, res) => {
-  try {
-    const labReport = req.body;
-    await publishPubSubMessage(labReport);
-    res.status(204).send();
-  }
-  catch (ex) {
-    console.log(ex);
-    res.status(500).send(ex);
-  }
-})
-
-async function publishPubSubMessage(labReport) {
-  const buffer = Buffer.from(JSON.stringify(labReport));
-  await pubsub.topic('new-lab-report').publish(buffer);
-}
-EOF_CP
-
-
-
-cat > Dockerfile <<EOF_CP
-FROM node:18
-WORKDIR /usr/src/app
-COPY package.json package*.json ./
-RUN npm install --only=production
-COPY . .
-CMD [ "npm", "start" ]
-EOF_CP
-
-
-
-gcloud builds submit \
-  --tag gcr.io/$GOOGLE_CLOUD_PROJECT/lab-report-service
-gcloud run deploy lab-report-service \
-  --image gcr.io/$GOOGLE_CLOUD_PROJECT/lab-report-service \
-  --platform managed \
-  --region $REGION \
-  --allow-unauthenticated \
-  --max-instances=1
-
-
-cd ~/pet-theory/lab05/email-service
-
-npm install express
-npm install body-parser
-
-
-
-
-cat > package.json <<EOF_CP
-{
-    "name": "lab05",
-    "version": "1.0.0",
-    "description": "This is lab05 of the Pet Theory labs",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "Patrick - IT",
-    "license": "ISC",
-    "dependencies": {
-      "body-parser": "^1.20.2",
-      "express": "^4.18.2"
-    }
-  }
-EOF_CP
-
-
-
-cat > index.js <<EOF_CP
-const express = require('express');
-const app = express();
-const bodyParser = require('body-parser');
-app.use(bodyParser.json());
-
-const port = process.env.PORT || 8080;
-app.listen(port, () => {
-  console.log('Listening on port', port);
-});
-
-app.post('/', async (req, res) => {
-  const labReport = decodeBase64Json(req.body.message.data);
-  try {
-    console.log(`Email Service: Report ${labReport.id} trying...`);
-    sendEmail();
-    console.log(`Email Service: Report ${labReport.id} success :-)`);
-    res.status(204).send();
-  }
-  catch (ex) {
-    console.log(`Email Service: Report ${labReport.id} failure: ${ex}`);
-    res.status(500).send();
-  }
-})
-
-function decodeBase64Json(data) {
-  return JSON.parse(Buffer.from(data, 'base64').toString());
-}
-
-function sendEmail() {
-  console.log('Sending email');
-}
-EOF_CP
-
-
-
-cat > Dockerfile <<EOF_CP
-FROM node:18
-WORKDIR /usr/src/app
-COPY package.json package*.json ./
-RUN npm install --only=production
-COPY . .
-CMD [ "npm", "start" ]
-EOF_CP
-
-
-gcloud builds submit \
-  --tag gcr.io/$GOOGLE_CLOUD_PROJECT/email-service
-
-gcloud run deploy email-service \
-  --image gcr.io/$GOOGLE_CLOUD_PROJECT/email-service \
-  --platform managed \
-  --region $REGION \
-  --no-allow-unauthenticated \
-  --max-instances=1
-
-
-PROJECT_NUMBER=$(gcloud projects list --filter="qwiklabs-gcp" --format='value(PROJECT_NUMBER)')
-
-gcloud iam service-accounts create pubsub-cloud-run-invoker --display-name "PubSub Cloud Run Invoker"
-
-echo $REGION
-
-gcloud run services add-iam-policy-binding email-service --member=serviceAccount:pubsub-cloud-run-invoker@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com --role=roles/run.invoker --region $REGION --platform managed
-
-gcloud projects add-iam-policy-binding $GOOGLE_CLOUD_PROJECT --member=serviceAccount:service-$PROJECT_NUMBER@gcp-sa-pubsub.iam.gserviceaccount.com --role=roles/iam.serviceAccountTokenCreator
-
-EMAIL_SERVICE_URL=$(gcloud run services describe email-service --platform managed --region=$REGION --format="value(status.address.url)")
-
-echo $EMAIL_SERVICE_URL
-
-gcloud pubsub subscriptions create email-service-sub --topic new-lab-report --push-endpoint=$EMAIL_SERVICE_URL --push-auth-service-account=pubsub-cloud-run-invoker@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com
-
-
-cd ~/pet-theory/lab05/sms-service
-
-npm install express
-npm install body-parser
-
-
-
-
-cat > package.json <<EOF_CP
-{
-    "name": "lab05",
-    "version": "1.0.0",
-    "description": "This is lab05 of the Pet Theory labs",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "Patrick - IT",
-    "license": "ISC",
-    "dependencies": {
-      "body-parser": "^1.20.2",
-      "express": "^4.18.2"
-    }
-  }
-EOF_CP
-
-
-
-
-
-cat > index.js <<EOF_CP
-const express = require('express');
-const app = express();
-const bodyParser = require('body-parser');
-app.use(bodyParser.json());
-
-const port = process.env.PORT || 8080;
-app.listen(port, () => {
-  console.log('Listening on port', port);
-});
-
-app.post('/', async (req, res) => {
-  const labReport = decodeBase64Json(req.body.message.data);
-  try {
-    console.log(`SMS Service: Report ${labReport.id} trying...`);
-    sendSms();
-
-    console.log(`SMS Service: Report ${labReport.id} success :-)`);    
-    res.status(204).send();
-  }
-  catch (ex) {
-    console.log(`SMS Service: Report ${labReport.id} failure: ${ex}`);
-    res.status(500).send();
-  }
-})
-
-function decodeBase64Json(data) {
-  return JSON.parse(Buffer.from(data, 'base64').toString());
-}
-
-function sendSms() {
-  console.log('Sending SMS');
-}
-EOF_CP
-
-
-
-cat > Dockerfile <<EOF_CP
-FROM node:18
-WORKDIR /usr/src/app
-COPY package.json package*.json ./
-RUN npm install --only=production
-COPY . .
-CMD [ "npm", "start" ]
-EOF_CP
-
-
-
-
-
-gcloud builds submit \
-  --tag gcr.io/$GOOGLE_CLOUD_PROJECT/sms-service
-gcloud run deploy sms-service \
-  --image gcr.io/$GOOGLE_CLOUD_PROJECT/sms-service \
-  --platform managed \
-  --region $REGION \
-  --no-allow-unauthenticated \
-  --max-instances=1
-
+gcloud services enable \
+  container.googleapis.com \
+  clouddeploy.googleapis.com \
+  artifactregistry.googleapis.com \
+  cloudbuild.googleapis.com \
+  clouddeploy.googleapis.com
+
+for i in $(seq 30 -1 1); do sleep 1; done
+
+gcloud container clusters create test --node-locations=$ZONE --num-nodes=1  --async
+gcloud container clusters create staging --node-locations=$ZONE --num-nodes=1  --async
+gcloud container clusters create prod --node-locations=$ZONE --num-nodes=1  --async
+
+gcloud artifacts repositories create web-app \
+  --description="Image registry for tutorial web app" \
+  --repository-format=docker \
+  --location=$REGION
+
+cd ~/
+git clone https://github.com/GoogleCloudPlatform/cloud-deploy-tutorials.git
+cd cloud-deploy-tutorials
+git checkout c3cae80 --quiet
+cd tutorials/base
+
+envsubst < clouddeploy-config/skaffold.yaml.template > web/skaffold.yaml
+sed -i "s/{{project-id}}/$PROJECT_ID/g" web/skaffold.yaml
+
+if ! gsutil ls "gs://${PROJECT_ID}_cloudbuild/" &>/dev/null; then
+  gsutil mb -p "${PROJECT_ID}" -l "${REGION}" -b on "gs://${PROJECT_ID}_cloudbuild/"
+  sleep 5
+fi
+
+cd web
+skaffold build --interactive=false \
+  --default-repo $REGION-docker.pkg.dev/$PROJECT_ID/web-app \
+  --file-output artifacts.json
+cd ..
+
+gcloud artifacts docker images list \
+  $REGION-docker.pkg.dev/$PROJECT_ID/web-app \
+  --include-tags \
+  --format yaml
+
+gcloud config set deploy/region $REGION
+
+cp clouddeploy-config/delivery-pipeline.yaml.template clouddeploy-config/delivery-pipeline.yaml
+gcloud beta deploy apply --file=clouddeploy-config/delivery-pipeline.yaml
+
+gcloud beta deploy delivery-pipelines describe web-app
+
+while true; do
+  cluster_statuses=$(gcloud container clusters list --format="csv(name,status)" | tail -n +2)
+  all_running=true
+  if [ -z "$cluster_statuses" ]; then
+    all_running=false
+  else
+    echo "$cluster_statuses" | while IFS=, read -r cluster_name cluster_status; do
+      cluster_name_trimmed=$(echo "$cluster_name" | tr -d '[:space:]')
+      cluster_status_trimmed=$(echo "$cluster_status" | tr -d '[:space:]')
+      if [ -z "$cluster_name_trimmed" ]; then continue; fi
+      if [[ "$cluster_status_trimmed" != "RUNNING" ]]; then
+        all_running=false
+      fi
+    done
+  fi
+  if [ "$all_running" = true ] && [ -n "$cluster_statuses" ]; then
+    break 
+  fi
+  for i in $(seq 10 -1 1); do sleep 1; done
+done 
+
+CONTEXTS=("test" "staging" "prod")
+for CONTEXT in ${CONTEXTS[@]}; do
+  gcloud container clusters get-credentials ${CONTEXT} --region ${REGION}
+  kubectl config rename-context gke_${PROJECT_ID}_${REGION}_${CONTEXT} ${CONTEXT}
+done
+
+for CONTEXT_NAME in ${CONTEXTS[@]}; do
+  MAX_RETRIES=20
+  RETRY_COUNT=0
+  SUCCESS=false
+  while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+    if kubectl --context ${CONTEXT_NAME} apply -f kubernetes-config/web-app-namespace.yaml; then
+      SUCCESS=true
+      break
+    else
+      RETRY_COUNT=$((RETRY_COUNT+1))
+      sleep 5
+    fi
+  done
+done
+
+for CONTEXT in ${CONTEXTS[@]}; do
+  envsubst < clouddeploy-config/target-$CONTEXT.yaml.template > clouddeploy-config/target-$CONTEXT.yaml
+  gcloud beta deploy apply --file=clouddeploy-config/target-$CONTEXT.yaml --region=${REGION} --project=${PROJECT_ID}
+done
+
+gcloud beta deploy releases create web-app-001 \
+  --delivery-pipeline web-app \
+  --build-artifacts web/artifacts.json \
+  --source web/ \
+  --project=${PROJECT_ID} \
+  --region=${REGION}
+
+while true; do
+  status=$(gcloud beta deploy rollouts list --delivery-pipeline web-app --release web-app-001 --filter="targetId=test" --format="value(state)" | head -n 1)
+  if [ "$status" == "SUCCEEDED" ]; then break; fi
+  if [[ "$status" == "FAILED" || "$status" == "CANCELLED" || "$status" == "HALTED" ]]; then break; fi
+  sleep 10
+done
+
+kubectx test
+kubectl get all -n web-app
+
+gcloud beta deploy releases promote \
+  --delivery-pipeline web-app \
+  --release web-app-001 \
+  --quiet
+
+while true; do
+  status=$(gcloud beta deploy rollouts list --delivery-pipeline web-app --release web-app-001 --filter="targetId=staging" --format="value(state)" | head -n 1)
+  if [ "$status" == "SUCCEEDED" ]; then break; fi
+  if [[ "$status" == "FAILED" || "$status" == "CANCELLED" || "$status" == "HALTED" ]]; then break; fi
+  sleep 10
+done
+
+gcloud beta deploy releases promote \
+  --delivery-pipeline web-app \
+  --release web-app-001 \
+  --quiet
+
+while true; do
+  status=$(gcloud beta deploy rollouts list --delivery-pipeline web-app --release web-app-001 --filter="targetId=prod" --format="value(state)" | head -n 1)
+  if [ "$status" == "PENDING_APPROVAL" ]; then break; fi
+  if [[ "$status" == "FAILED" || "$status" == "CANCELLED" || "$status" == "HALTED" || "$status" == "SUCCEEDED" ]]; then break; fi
+  sleep 10
+done
+
+prod_rollout_name=$(gcloud beta deploy rollouts list \
+  --delivery-pipeline web-app \
+  --release web-app-001 \
+  --filter="targetId=prod AND state=PENDING_APPROVAL" \
+  --format="value(name)" | head -n 1)
+
+gcloud beta deploy rollouts approve "$prod_rollout_name" \
+  --delivery-pipeline web-app \
+  --release web-app-001 \
+  --quiet
+
+while true; do
+  status=$(gcloud beta deploy rollouts list --delivery-pipeline web-app --release web-app-001 --filter="targetId=prod" --format="value(state)" | head -n 1)
+  if [ "$status" == "SUCCEEDED" ]; then break; fi
+  if [[ "$status" == "FAILED" || "$status" == "CANCELLED" || "$status" == "HALTED" ]]; then break; fi
+  sleep 10
+done
+
+kubectx prod
+kubectl get all -n web-app
