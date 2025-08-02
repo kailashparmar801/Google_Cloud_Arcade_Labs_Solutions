@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub - GSP650](https://cloudskillsboost.google/focuses/8389?parent=catalog)
+### 💡 Lab Link: [Continuous Delivery with Google Cloud Deploy - GSP1079]([https://cloudskillsboost.google/focuses/8389?parent=catalog](https://www.cloudskillsboost.google/focuses/52828?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=50084415))
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/EyETFR5iHBs)
 
@@ -16,9 +16,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/KPGSP650.sh
-sudo chmod +x KPGSP650.sh
-./KPGSP650.sh
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Continuous%20Delivery%20with%20Google%20Cloud%20Deploy/quicklabgsp1079.sh
+sudo chmod +x quicklabgsp1079.sh
+./quicklabgsp1079.sh
 ```
 
 ---
