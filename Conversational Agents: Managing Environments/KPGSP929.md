@@ -13,10 +13,10 @@
 
 ---
 
-| Version Name                     | Environment | Test the Agent           |
-| -------------------------------- | ----------- | ------------------------ |
-| `Flight booker main v1 chat bot` | **QA**      | i want to book a flight  |
-| `Flight booker main v2 chat bot` | **Dev**     | i want to book a flight  |
+| Version Name                     | Environment | Test the Agent           | Version Description  |
+| -------------------------------- | ----------- | ------------------------ | -------------------- |
+| `Flight booker main v1 chat bot` | **QA**      | i want to book a flight  |         v1           |
+| `Flight booker main v2 chat bot` | **Dev**     | i want to book a flight  |         v2           |
 
 ---
 
