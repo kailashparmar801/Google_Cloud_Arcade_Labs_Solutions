@@ -16,9 +16,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Create%20VPC%20Peering%20Connection%20between%20VPCs/techcps.sh
-sudo chmod +x techcps.sh
-./techcps.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Create%20VPC%20Peering%20Connection%20between%20VPCs/KPGSP.sh
+sudo chmod +x KPGSP.sh
+./KPGSP.sh
 ```
 
 ### Congratulations, you're all done with the lab 😄
@@ -36,7 +36,7 @@ sudo chmod +x techcps.sh
 
 ---
 
-# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Techcps](https://www.youtube.com/@techcps) Don't Forget to like share & subscribe
+# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Kailash Parmar](https://www.youtube.com/@kailash_parmar) Don't Forget to like share & subscribe
 
 ### Thanks for watching and stay connected :)
 ---
