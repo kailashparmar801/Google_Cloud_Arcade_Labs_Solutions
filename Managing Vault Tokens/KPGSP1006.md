@@ -1,6 +1,6 @@
 
 
-### 💡 Lab Link: [Extract, Analyze, and Translate Text from Images with the Cloud ML APIs - GSP075](https://www.cloudskillsboost.google/focuses/1836?parent=catalog)
+### 💡 Lab Link: [Managing Vault Tokens - GSP1006](https://www.cloudskillsboost.google/focuses/32201?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=50724420)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/1WGEwBkMz1Q)
 
@@ -17,9 +17,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Extract%2C%20Analyze%2C%20and%20Translate%20Text%20from%20Images%20with%20the%20Cloud%20ML%20APIs/KPGSP075.sh
-sudo chmod +x KPGSP075.sh
-./KPGSP075.sh
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Managing%20Vault%20Tokens/quicklabgsp1006.sh
+
+sudo chmod +x quicklabgsp1006.sh
+
+./quicklabgsp1006.sh
 ```
 
 ### Congratulations, you're all done with the lab 😄
