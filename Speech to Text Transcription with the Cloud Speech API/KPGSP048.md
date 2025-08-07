@@ -1,5 +1,5 @@
 
-# Please like share & subscribe to [Techcps](https://www.youtube.com/@techcps) & join our [WhatsApp Community](https://whatsapp.com/channel/0029Va9nne147XeIFkXYv71A)
+# Please like share & subscribe to [Kailash parmar](https://www.youtube.com/@kailash_parmar)
 
 
 ```
