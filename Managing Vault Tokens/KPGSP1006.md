@@ -17,11 +17,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Managing%20Vault%20Tokens/quicklabgsp1006.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Managing%20Vault%20Tokens/KPGSP1006.sh
 
-sudo chmod +x quicklabgsp1006.sh
+sudo chmod +x KPGSP1006.sh
 
-./quicklabgsp1006.sh
+./KPGSP1006.sh
 ```
 
 ### Congratulations, you're all done with the lab 😄
