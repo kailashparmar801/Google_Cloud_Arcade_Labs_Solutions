@@ -17,9 +17,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Extract%20Analyze%20and%20Translate%20Text%20from%20Images%20with%20the%20Cloud%20ML%20APIs/techcps075.sh
-sudo chmod +x techcps075.sh
-./techcps075.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Extract%2C%20Analyze%2C%20and%20Translate%20Text%20from%20Images%20with%20the%20Cloud%20ML%20APIs/KPGSP075.sh
+sudo chmod +x KPGSP075.sh
+./KPGSP075.sh
 ```
 
 ### Congratulations, you're all done with the lab 😄
@@ -37,7 +37,7 @@ sudo chmod +x techcps075.sh
 
 ---
 
-# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Techcps](https://www.youtube.com/@techcps) Don't Forget to like share & subscribe
+# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Kailash Parmar](https://www.youtube.com/@kailash_parmar) Don't Forget to like share & subscribe
 
 ### Thanks for watching and stay connected :)
 ---
