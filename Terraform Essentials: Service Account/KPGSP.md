@@ -16,11 +16,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/Abhi_Service_Account.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Terraform%20Essentials:%20Service%20Account/KPGSP.sh
 
-sudo chmod +x Abhi_Service_Account.sh
+sudo chmod +x KPGSP.sh
 
-./Abhi_Service_Account.sh
+./KPGSP.sh
 ```
 
 ---
