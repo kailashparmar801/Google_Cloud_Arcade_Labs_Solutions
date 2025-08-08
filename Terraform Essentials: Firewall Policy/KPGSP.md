@@ -16,7 +16,7 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/blob/main/Terraform%20Essentials%3A%20Firewall%20Policy/KPGSP.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Terraform%20Essentials%3A%20Firewall%20Policy/KPGSP.sh
 
 sudo chmod +x KPGSP.sh
 
