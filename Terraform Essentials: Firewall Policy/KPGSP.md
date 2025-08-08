@@ -16,11 +16,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/Abhi_Firewall_Policy.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/blob/main/Terraform%20Essentials%3A%20Firewall%20Policy/KPGSP.sh
 
-sudo chmod +x Abhi_Firewall_Policy.sh
+sudo chmod +x KPGSP.sh
 
-./Abhi_Firewall_Policy.sh
+./KPGSP.sh
 ```
 
 ---
