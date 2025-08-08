@@ -28,7 +28,7 @@ cat > firewall.tf <<EOF_END
 resource "google_compute_firewall" "allow_ssh" {
   name    = "allow-ssh-from-anywhere"
   network = "default"
-  project = "qwiklabs-gcp-02-1a0da4ba624f"
+  project = "$PROJECT_ID"
 
   allow {
     protocol = "tcp"
