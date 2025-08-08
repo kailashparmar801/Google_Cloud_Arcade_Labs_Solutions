@@ -16,9 +16,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Terraform%20Essentials%20Google%20Compute%20Engine%20Instance/quicklab.sh
-sudo chmod +x quicklab.sh
-./quicklab.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Terraform%20Essentials:%20Google%20Compute%20Engine%20Instance/KPGSP.sh
+sudo chmod +x KPGSP.sh
+./KPGSP.sh
 ```
 
 ---
