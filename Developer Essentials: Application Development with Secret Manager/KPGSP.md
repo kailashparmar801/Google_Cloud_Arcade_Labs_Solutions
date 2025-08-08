@@ -15,11 +15,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/Abhi_Secret_Manager.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Developer%20Essentials%3A%20Application%20Development%20with%20Secret%20Manager/KPGSP.sh
 
-sudo chmod +x Abhi_Secret_Manager.sh
+sudo chmod +x KPGSP.sh
 
-./Abhi_Secret_Manager.sh
+./KPGSP.sh
 ```
 
 ---
