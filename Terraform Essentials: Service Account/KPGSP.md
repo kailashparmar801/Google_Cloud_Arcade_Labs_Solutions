@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Creating Dynamic Secrets for Google Cloud with Vault - GSP1007](https://www.cloudskillsboost.google/focuses/32204?parent=catalog)
+### 💡 Lab Link: [Terraform Essentials: Service Account](https://www.cloudskillsboost.google/focuses/127763?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=50826669)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/3Vw1p5itVrA)
 
@@ -16,9 +16,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Creating%20Dynamic%20Secrets%20for%20Google%20Cloud%20with%20Vault/techcps1007.sh
-sudo chmod +x techcps1007.sh
-./techcps1007.sh
+curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/Abhi_Service_Account.sh
+
+sudo chmod +x Abhi_Service_Account.sh
+
+./Abhi_Service_Account.sh
 ```
 
 ---
@@ -38,7 +40,7 @@ sudo chmod +x techcps1007.sh
 
 ---
 
-# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Techcps](https://www.youtube.com/@techcps) Don't Forget to like share & subscribe
+# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Kailash Parmar](https://www.youtube.com/@kailash_parmar) Don't Forget to like share & subscribe
 
 ### Thanks for watching and stay connected :)
 ---
