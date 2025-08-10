@@ -16,11 +16,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Validating%20Policies%20for%20Terraform%20on%20Google%20Cloud/KPGSP.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Validating%20Policies%20for%20Terraform%20on%20Google%20Cloud/KPGSP1021.sh
 
-sudo chmod +x KPGSP.sh
+sudo chmod +x KPGSP1021.sh
 
-./KPGSP.sh
+./KPGSP1021.sh
 ```
 
 ---
