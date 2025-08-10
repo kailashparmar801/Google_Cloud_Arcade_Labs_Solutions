@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Validating Policies for Terraform on Google Cloud - GSP1021](https://www.cloudskillsboost.google/focuses/33968?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=50970491)
+### 💡 Lab Link: [Using Prometheus for Monitoring on Google Cloud: Qwik Start - GSP1024](https://www.cloudskillsboost.google/focuses/31103?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=50972262)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/3Vw1p5itVrA)
 
@@ -16,11 +16,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Validating%20Policies%20for%20Terraform%20on%20Google%20Cloud/KPGSP.sh
-
-sudo chmod +x KPGSP.sh
-
-./KPGSP.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Using%20Prometheus%20for%20Monitoring%20on%20Google%20Cloud%3A%20Qwik%20Start/techcps1024.sh
+sudo chmod +x techcps1024.sh
+./techcps1024.sh
 ```
 
 ---
