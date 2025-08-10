@@ -4,7 +4,7 @@ NC='\033[0m'
 pattern=(
 "**********************************************************"
 "**                 S U B S C R I B E  TO                **"
-"**                 ABHI ARCADE SOLUTION                 **"
+"**                    KAILASH PARMAR                    **"
 "**                                                      **"
 "**********************************************************"
 )
@@ -37,7 +37,7 @@ gcloud dataproc jobs submit spark --cluster example-cluster \
 pattern=(
 "**********************************************************"
 "**                 S U B S C R I B E  TO                **"
-"**                 ABHI ARCADE SOLUTION                 **"
+"**                    KAILASH PARMAR                    **"
 "**                                                      **"
 "**********************************************************"
 )
