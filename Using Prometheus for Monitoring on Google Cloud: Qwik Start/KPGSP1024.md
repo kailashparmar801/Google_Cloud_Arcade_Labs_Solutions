@@ -16,9 +16,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Using%20Prometheus%20for%20Monitoring%20on%20Google%20Cloud%3A%20Qwik%20Start/techcps1024.sh
-sudo chmod +x techcps1024.sh
-./techcps1024.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Using%20Prometheus%20for%20Monitoring%20on%20Google%20Cloud:%20Qwik%20Start/KPGSP1024.sh
+sudo chmod +x KPGSP1024.sh
+./KPGSP1024.sh
 ```
 
 ---
