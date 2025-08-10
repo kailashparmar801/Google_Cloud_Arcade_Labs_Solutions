@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Terraform Essentials: Service Account](https://www.cloudskillsboost.google/focuses/127763?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=50826669)
+### 💡 Lab Link: [Validating Policies for Terraform on Google Cloud - GSP1021](https://www.cloudskillsboost.google/focuses/33968?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=50970491)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/3Vw1p5itVrA)
 
@@ -16,11 +16,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Terraform%20Essentials:%20Service%20Account/KPGSP.sh
+curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/GSP1021_abhi.sh
 
-sudo chmod +x KPGSP.sh
+sudo chmod +x GSP1021_abhi.sh
 
-./KPGSP.sh
+./GSP1021_abhi.sh
 ```
 
 ---
