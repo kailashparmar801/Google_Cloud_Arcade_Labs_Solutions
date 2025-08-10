@@ -91,27 +91,27 @@ This guide will help you copy the **Customer Contacts** app to your **AppSheet**
 <p style="font-family: 'Segoe UI', sans-serif;">Join the community, share knowledge, and grow together!</p>
 
 <!-- Telegram Channel -->
-<a href="https://t.me/+gBcgRTlZLyM4OGI1" target="_blank" style="text-decoration: none;">
+<a href="" target="_blank" style="text-decoration: none;">
   <img src="https://img.shields.io/badge/-Join_Telegram_Channel-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=2CA5E0&color=white&gradient=linear-gradient(90deg, #2CA5E0, #2488C8)" alt="Telegram Channel"/>
 </a>
 
 <!-- Telegram Group -->
-<a href="https://t.me/+RujS6mqBFawzZDFl" target="_blank" style="text-decoration: none;">
+<a href="" target="_blank" style="text-decoration: none;">
   <img src="https://img.shields.io/badge/-Join_Telegram_Group-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=2CA5E0&color=white&gradient=linear-gradient(90deg, #2CA5E0, #2488C8)" alt="Telegram Group"/>
 </a>
 
 <!-- YouTube -->
-<a href="https://www.youtube.com/@drabhishek.5460?sub_confirmation=1" target="_blank" style="text-decoration: none;">
+<a href="https://www.youtube.com/@kailash_parmar" target="_blank" style="text-decoration: none;">
   <img src="https://img.shields.io/badge/-Subscribe_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=FF0000&color=white&gradient=linear-gradient(90deg, #FF0000, #CC0000)" alt="YouTube"/>
 </a>
 
 <!-- Instagram -->
-<a href="https://www.instagram.com/drabhishek.5460/" target="_blank" style="text-decoration: none;">
+<a href="" target="_blank" style="text-decoration: none;">
   <img src="https://img.shields.io/badge/-Follow_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F&color=white&gradient=linear-gradient(90deg, #E4405F, #C13584)" alt="Instagram"/>
 </a>
 
 <!-- X (Twitter) -->
-<a href="https://x.com/DAbhishek5460" target="_blank" style="text-decoration: none;">
+<a href="" target="_blank" style="text-decoration: none;">
   <img src="https://img.shields.io/badge/-Follow_X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=000000&color=white&gradient=linear-gradient(90deg, #000000, #2D2D2D)" alt="X (Twitter)"/>
 </a>
 
