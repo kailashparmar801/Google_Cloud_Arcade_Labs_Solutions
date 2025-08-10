@@ -1,6 +1,6 @@
 #!/bin/bash
 # Google Cloud Monitoring & Prometheus Lab
-# Expertly crafted by Dr. Abhishek Cloud
+# Expertly crafted by Kailash parmar
 
 
 # ======================
@@ -33,11 +33,11 @@ RAND_COLOR=${COLORS[$RANDOM % ${#COLORS[@]}]}
 # ======================
 clear
 echo "${BG_BLUE}${BOLD}${WHITE}==================================================${RESET}"
-echo "${BG_BLUE}${BOLD}${WHITE}   WELCOME TO DR ABHISHEK CLOUD TUTORIALS     ${RESET}"
+echo "${BG_BLUE}${BOLD}${WHITE}       WELCOME TO KAILASH PARMAR TUTORIALS        ${RESET}"
 echo "${BG_BLUE}${BOLD}${WHITE}==================================================${RESET}"
 echo ""
-echo "${CYAN}${BOLD}⚡ Expertly crafted by Dr. Abhishek Cloud${RESET}"
-echo "${YELLOW}${BOLD}📺 YouTube: ${UNDERLINE}https://www.youtube.com/@drabhishek.5460/videos${RESET}"
+echo "${CYAN}${BOLD}⚡ Expertly crafted by KAILASH PARMAR${RESET}"
+echo "${YELLOW}${BOLD}📺 YouTube: ${UNDERLINE}https://www.youtube.com/@kailash_parmar${RESET}"
 echo ""
 
 # ======================
@@ -269,7 +269,7 @@ echo "${YELLOW}Monitoring: https://console.cloud.google.com/monitoring/dashboard
 echo "${YELLOW}Artifact Registry: https://console.cloud.google.com/artifacts?project=$DEVSHELL_PROJECT_ID${RESET}"
 echo ""
 echo "${CYAN}${BOLD}💡 For more Google Cloud labs and tutorials:${RESET}"
-echo "${YELLOW}${BOLD}👉 ${UNDERLINE}https://www.youtube.com/@drabhishek.5460/videos${RESET}"
+echo "${YELLOW}${BOLD}👉 ${UNDERLINE}https://www.youtube.com/@kailash_parmar${RESET}"
 echo "${GREEN}${BOLD}🔔 Don't forget to subscribe for daily cloud tutorials!${RESET}"
 echo ""
 
