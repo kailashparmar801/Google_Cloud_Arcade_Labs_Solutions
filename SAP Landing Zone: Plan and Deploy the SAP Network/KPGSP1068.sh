@@ -6,7 +6,7 @@ NC='\033[0m'
 # Banner design
 pattern=(
 "**********************************************************"
-"**             Welcome to Dr. Abhishek Cloud Tutorials  **"
+"**         Welcome to Kailash Parmar Tutorials          **"
 "**                                                      **"
 "**       █████╗ ██████╗ ██╗  ██╗██╗███████╗██╗  ██╗    **"
 "**      ██╔══██╗██╔══██╗██║  ██║██║██╔════╝██║  ██║    **"
@@ -16,7 +16,7 @@ pattern=(
 "**      ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝    **"
 "**                                                      **"
 "**      Subscribe to our YouTube Channel:               **"
-"**      ${CYAN}https://www.youtube.com/@drabhishek.5460${NC}       **"
+"** ${CYAN}https://www.youtube.com/@kailash_parmar${NC}  **"
 "**                                                      **"
 "**********************************************************"
 )
@@ -183,10 +183,10 @@ pattern=(
 "**********************************************************"
 "**             Infrastructure Setup Complete!           **"
 "**                                                      **"
-"**    Thank you for using Dr. Abhishek Cloud Tutorials  **"
+"**    Thank you for using Kailash Parmar Tutorials      **"
 "**                                                      **"
 "**    For more tutorials, visit our YouTube Channel:    **"
-"**    ${CYAN}https://www.youtube.com/@drabhishek.5460${NC}       **"
+"**  ${CYAN}https://www.youtube.com/@kailash_parmar${NC} **"
 "**                                                      **"
 "**    Don't forget to like, share, and subscribe!       **"
 "**                                                      **"
