@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Validating Policies for Terraform on Google Cloud - GSP1021](https://www.cloudskillsboost.google/focuses/33968?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=50970491)
+### 💡 Lab Link: [Configuring Private Google Access and Cloud NAT - GSP459](https://www.cloudskillsboost.google/focuses/4362?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=51074833)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/3Vw1p5itVrA)
 
@@ -16,11 +16,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Validating%20Policies%20for%20Terraform%20on%20Google%20Cloud/KPGSP.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Configuring%20Private%20Google%20Access%20and%20Cloud%20NAT/KPGSP459.sh
 
-sudo chmod +x KPGSP.sh
+sudo chmod +x KPGSP459.sh
 
-./KPGSP.sh
+./KPGSP459.sh
 ```
 
 ---
