@@ -4,7 +4,7 @@ NC='\033[0m'
 pattern=(
 "**********************************************************"
 "**                 S U B S C R I B E  TO                **"
-"**                 ABHI ARCADE SOLUTION                 **"
+"**                    KAILASH PARMAR                    **"
 "**                                                      **"
 "**********************************************************"
 )
@@ -67,7 +67,7 @@ gsutil iam ch serviceAccount:$SERVICE_EMAIL:roles/storage.admin \
 pattern=(
 "**********************************************************"
 "**                 S U B S C R I B E  TO                **"
-"**                 ABHI ARCADE SOLUTION                 **"
+"**                    KAILASH PARMAR                    **"
 "**                                                      **"
 "**********************************************************"
 )
