@@ -16,7 +16,7 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Optical%20Character%20Recognition%20(OCR)%20with%20Document%20AI%20(Python)/KPGSP1138.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Optical%20Character%20Recognition%20OCR%20with%20Document%20AI%20Python/KPGSP1138.sh
 
 sudo chmod +x KPGSP1138.sh
 
