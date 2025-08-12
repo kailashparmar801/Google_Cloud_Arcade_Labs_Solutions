@@ -18,7 +18,7 @@
 ```
 curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Building%20and%20Debugging%20Cloud%20Functions%20for%20Node.js/KPGSP880.sh
 
-sudo chmod +x KPGSP880.sh
+chmod +x KPGSP880.sh
 
 ./KPGSP880.sh
 ```
