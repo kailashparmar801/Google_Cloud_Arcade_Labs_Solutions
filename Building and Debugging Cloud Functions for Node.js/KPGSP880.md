@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Validating Policies for Terraform on Google Cloud - GSP1021](https://www.cloudskillsboost.google/focuses/33968?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=50970491)
+### 💡 Lab Link: [Building and Debugging Cloud Functions for Node.js - GSP880](https://www.cloudskillsboost.google/focuses/59615?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=51131754)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/3Vw1p5itVrA)
 
