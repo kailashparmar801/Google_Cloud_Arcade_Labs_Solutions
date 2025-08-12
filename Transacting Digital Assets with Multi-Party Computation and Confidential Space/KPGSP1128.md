@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Validating Policies for Terraform on Google Cloud - GSP1021](https://www.cloudskillsboost.google/focuses/33968?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=50970491)
+### 💡 Lab Link: [Transacting Digital Assets with Multi-Party Computation and Confidential Space - GSP1128](https://www.cloudskillsboost.google/focuses/61481?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=51159749)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/3Vw1p5itVrA)
 
@@ -16,11 +16,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Validating%20Policies%20for%20Terraform%20on%20Google%20Cloud/KPGSP.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Transacting%20Digital%20Assets%20with%20Multi-Party%20Computation%20and%20Confidential%20Space/KPGSP1128.sh
 
-sudo chmod +x KPGSP.sh
+sudo chmod +x KPGSP1128.sh
 
-./KPGSP.sh
+./KPGSP1128.sh
 ```
 
 ---
