@@ -4,8 +4,8 @@ NC='\033[0m'
 pattern=(
 "**********************************************************"
 "**                 S U B S C R I B E  TO                **"
-"**              DR ABHISHEK CLOUD TUTORIALS             **"
-"**       https://www.youtube.com/@drabhishek.5460        **"
+"**                KAILASH PARMAR TUTORIALS              **"
+"**       https://www.youtube.com/@kailash_parmar        **"
 "**                                                      **"
 "**********************************************************"
 )
@@ -123,8 +123,8 @@ echo "icmp"
 pattern=(
 "**********************************************************"
 "**                 S U B S C R I B E  TO                **"
-"**              DR ABHISHEK CLOUD TUTORIALS             **"
-"**       https://www.youtube.com/@drabhishek.5460        **"
+"**              KAILASH PARMAR CLOUD TUTORIALS          **"
+"**       https://www.youtube.com/@kailash_parmar        **"
 "**                                                      **"
 "**********************************************************"
 )
