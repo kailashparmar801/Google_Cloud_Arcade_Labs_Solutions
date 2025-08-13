@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Optical Character Recognition (OCR) with Document AI (Python) - GSP1138](https://www.cloudskillsboost.google/focuses/67857?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=51165909)
+### 💡 Lab Link: [Autoscaling an Instance Group with Custom Cloud Monitoring Metrics - GSP087](https://www.cloudskillsboost.google/focuses/611?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=51223236)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/3Vw1p5itVrA)
 
@@ -16,11 +16,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Optical%20Character%20Recognition%20(OCR)%20with%20Document%20AI%20(Python)/KPGSP1138.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Autoscaling%20an%20Instance%20Group%20with%20Custom%20Cloud%20Monitoring%20Metrics/KPGSP087.sh
 
-sudo chmod +x KPGSP1138.sh
+sudo chmod +x KPGSP087.sh
 
-./KPGSP1138.sh
+./KPGSP087.sh
 ```
 
 ---
