@@ -16,6 +16,8 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
+export ZONE=
+
 curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Autoscaling%20an%20Instance%20Group%20with%20Custom%20Cloud%20Monitoring%20Metrics/KPGSP087.sh
 
 sudo chmod +x KPGSP087.sh
