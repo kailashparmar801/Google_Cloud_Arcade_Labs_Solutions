@@ -25,7 +25,7 @@ RESET=$(tput sgr0)
 
 echo
 echo -e "${CYAN}${BOLD}================================================${RESET}"
-echo -e "${YELLOW}${BOLD}              Arcade Labs Solution            ${RESET}"
+echo -e "${YELLOW}${BOLD}             Kailash Parmar Solution         ${RESET}"
 echo -e "${CYAN}${BOLD}================================================${RESET}"
 echo
 
@@ -230,6 +230,6 @@ echo "${GREEN}${BOLD}Congratulations:- ${RESET}" "${WHITE}${BOLD}Lab Completed !
 
 echo
 echo -e "${CYAN}${BOLD}================================================${RESET}"
-echo -e "${YELLOW}${BOLD}           Subscribe To Arcade Labs           ${RESET}"
+echo -e "${YELLOW}${BOLD}           Subscribe To Kailash parmar        ${RESET}"
 echo -e "${CYAN}${BOLD}================================================${RESET}"
 echo
