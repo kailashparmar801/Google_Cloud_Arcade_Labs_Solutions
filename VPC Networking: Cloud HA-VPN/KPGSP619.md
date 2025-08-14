@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Optical Character Recognition (OCR) with Document AI (Python) - GSP1138](https://www.cloudskillsboost.google/focuses/67857?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=51165909)
+### 💡 Lab Link: [VPC Networking: Cloud HA-VPN - GSP619](https://www.cloudskillsboost.google/focuses/6270?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=51308859)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/3Vw1p5itVrA)
 
@@ -16,11 +16,16 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Optical%20Character%20Recognition%20(OCR)%20with%20Document%20AI%20(Python)/KPGSP1138.sh
+export ZONE2=
+export ZONE=
+export ZONE1=
+```
+```
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/VPC%20Networking%3A%20Cloud%20HA-VPN/KPGSP619.sh
 
-sudo chmod +x KPGSP1138.sh
+sudo chmod +x KPGSP619.sh
 
-./KPGSP1138.sh
+./KPGSP619.sh
 ```
 
 ---
