@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [Optical Character Recognition (OCR) with Document AI (Python) - GSP1138](https://www.cloudskillsboost.google/focuses/67857?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=51165909)
+### 💡 Lab Link: [Getting Started with Vault - GSP1003](https://www.cloudskillsboost.google/focuses/31050?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=51632392)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/3Vw1p5itVrA)
 
@@ -16,11 +16,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Optical%20Character%20Recognition%20(OCR)%20with%20Document%20AI%20(Python)/KPGSP1138.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/blob/main/Getting%20Started%20with%20Vault/KPGSP1003.sh
 
-sudo chmod +x KPGSP1138.sh
+sudo chmod +x KPGSP1003.sh
 
-./KPGSP1138.sh
+./KPGSP1003.sh
 ```
 
 ---
