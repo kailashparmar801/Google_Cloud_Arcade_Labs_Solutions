@@ -16,7 +16,7 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/blob/main/Getting%20Started%20with%20Vault/KPGSP1003.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Getting%20Started%20with%20Vault/KPGSP1003.sh
 
 sudo chmod +x KPGSP1003.sh
 
