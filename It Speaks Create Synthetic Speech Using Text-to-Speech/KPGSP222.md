@@ -16,11 +16,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/VPC%20Flow%20Logs%20-%20Analyzing%20Network%20Traffic/KPGSP212.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/main/It%20Speaks%20Create%20Synthetic%20Speech%20Using%20Text-to-Speech/KPGSP222.sh
 
-sudo chmod +x KPGSP212.sh
+sudo chmod +x KPGSP222.sh
 
-./KPGSP212.sh
+./KPGSP222.sh
 ```
 
 ---
