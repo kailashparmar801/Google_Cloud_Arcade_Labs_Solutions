@@ -4,7 +4,7 @@ NC='\033[0m'
 pattern=(
 "**********************************************************"
 "**                 S U B S C R I B E  TO                **"
-"**                 ABHI ARCADE SOLUTION                 **"
+"**                KAILASH PARMAR SOLUTION               **"
 "**                                                      **"
 "**********************************************************"
 )
@@ -20,7 +20,7 @@ export GOOGLE_APPLICATION_CREDENTIALS=tts-qwiklab.json
 pattern=(
 "**********************************************************"
 "**                 S U B S C R I B E  TO                **"
-"**                 ABHI ARCADE SOLUTION                 **"
+"**                KAILASH PARMAR SOLUTION               **"
 "**                                                      **"
 "**********************************************************"
 )
