@@ -16,11 +16,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/VPC%20Flow%20Logs%20-%20Analyzing%20Network%20Traffic/KPGSP212.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Deploy%20Kubernetes%20Load%20Balancer%20Service%20with%20Terraform/KPGSP233.sh
 
-sudo chmod +x KPGSP212.sh
+sudo chmod +x KPGSP233.sh
 
-./KPGSP212.sh
+./KPGSP233.sh
 ```
 
 ---
