@@ -18,6 +18,7 @@
 ```
 export ZONE=
 ```
+```
 curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Network%20Tiers%20-%20Optimizing%20Network%20Spend/KPGSP219.sh
 
 sudo chmod +x KPGSP219.sh
