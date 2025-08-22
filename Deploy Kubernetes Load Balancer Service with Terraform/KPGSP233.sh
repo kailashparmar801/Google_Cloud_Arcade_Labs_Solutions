@@ -2,8 +2,8 @@
 
 # ==============================================
 # GKE Kubernetes Service Load Balancer Setup
-# Welcome to Dr. Abhishek Cloud Tutorials!
-# YouTube: https://www.youtube.com/@drabhishek.5460/videos
+# Welcome to Kailash Parmar Cloud Tutorials!
+# YouTube: https://www.youtube.com/@kailash_parmar
 # ==============================================
 
 # Color definitions
@@ -18,7 +18,7 @@ NC='\033[0m' # No Color
 display_banner() {
     echo -e "${YELLOW}${BOLD}**********************************************************${NC}"
     echo -e "${YELLOW}${BOLD}**                 S U B S C R I B E  TO                **${NC}"
-    echo -e "${YELLOW}${BOLD}**           DR. ABHISHEK CLOUD TUTORIALS               **${NC}"
+    echo -e "${YELLOW}${BOLD}**             KAILASH PARMAR CLOUD TUTORIALS           **${NC}"
     echo -e "${YELLOW}${BOLD}**                                                      **${NC}"
     echo -e "${YELLOW}${BOLD}**       YouTube: https://www.youtube.com/@drabhishek   **${NC}"
     echo -e "${YELLOW}${BOLD}**********************************************************${NC}"
