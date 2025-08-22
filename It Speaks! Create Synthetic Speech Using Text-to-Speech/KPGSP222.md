@@ -16,7 +16,7 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/main/It%20Speaks!%20Create%20Synthetic%20Speech%20Using%20Text-to-Speech/KPGSP222.sh
+curl -LO https://raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/main/It%20Speaks!%20Create%20Synthetic%20Speech%20Using%20Text-to-Speech/KPGSP222.sh
 
 sudo chmod +x KPGSP222.sh
 
