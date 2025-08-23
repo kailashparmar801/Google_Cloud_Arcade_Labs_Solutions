@@ -16,7 +16,7 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/blob/main/APIs%20Explorer%3A%20Qwik%20Start/KPGSP277.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/APIs%20Explorer%3A%20Qwik%20Start/KPGSP277.sh
 
 sudo chmod +x KPGSP277.sh
 
