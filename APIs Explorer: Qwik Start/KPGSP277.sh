@@ -4,7 +4,7 @@ NC='\033[0m'
 pattern=(
 "**********************************************************"
 "**                 S U B S C R I B E  TO                **"
-"**                 ABHI ARCADE SOLUTION                 **"
+"**                KAILASH PARMAR SOLUTION               **"
 "**                                                      **"
 "**********************************************************"
 )
@@ -20,7 +20,7 @@ gsutil acl ch -u allUsers:R gs://$BUCKET-bucket/demo-image.jpg
 pattern=(
 "**********************************************************"
 "**                 S U B S C R I B E  TO                **"
-"**                 ABHI ARCADE SOLUTION                 **"
+"**                KAILASH PARMAR SOLUTION               **"
 "**                                                      **"
 "**********************************************************"
 )
