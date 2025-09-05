@@ -20,3 +20,6 @@ gcloud dataplex assets create customer-online-sessions \
   --resource-type=STORAGE_BUCKET \
   --resource-name=projects/$PROJECT_ID/buckets/$PROJECT_ID-bucket
 
+echo
+echo -e "\033[1;33mClick Grant access\033[0m \033[1;34mhttps://console.cloud.google.com/dataplex/secure?inv=1&invt=AbyNQg&project=$PROJECT_ID\033[0m"
+echo
