@@ -16,6 +16,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
+```
+nvm install 22.6
+```
 curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Deploy%20a%20Modern%20Web%20App%20connected%20to%20a%20Cloud%20Spanner%20Instance/KPGSP1051.sh
 
 sudo chmod +x KPGSP1051.sh
