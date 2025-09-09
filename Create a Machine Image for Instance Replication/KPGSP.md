@@ -11,7 +11,7 @@
 ### ©Credit
 - **DM for credit or removal request (no copyright intended) ©All rights and credits for the original content belong to Google Cloud [Google Cloud Skill Boost website](https://www.cloudskillsboost.google/)** 🙏
 
-- **Replace [enter zone ,  [enter Machine Image Name , [enter VM Name]] with region given**
+- **Replace [enter zone ,  [enter Machine Image Name , [enter VM Name]] with region given
 
 ---
 
