@@ -5,21 +5,28 @@
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Detect%20and%20Investigate%20Threats%20with%20Security%20Command%20Center/gsp1125.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Detect%20and%20Investigate%20Threats%20with%20Security%20Command%20Center/Detect%20and%20Investigate%20Threats%20with%20Security%20Command%20Center/KPGSP1125.sh
 
-sudo chmod +x *.sh
+sudo chmod +x KPGSP1125.sh
 
-./*.sh
+./KPGSP1125.sh
 ```
 
-# 🎉 Woohoo! You Did It! 🎉  
+### Congratulations, you're all done with the lab 😄
 
-Your hard work and determination paid off! 💻  
-You've successfully completed the lab. **Way to go!** 🚀
+---
 
-### 💬 Stay Connected with Our Community!  
-👉 Join the conversation and never miss an update:  
-📢 [Telegram Channel](https://t.me/quickgcplab)  
-👥 [Discussion Group](https://t.me/quickgcplabchats)  
+### 🌐 Join our Community
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+- <img src="https://github.com/user-attachments/assets/a4a4b767-151c-461d-bca1-da6d4c0cd68a" alt="icon" width="25" height="25"> **Join our [Telegram Channel](https://t.me/Microsoft_Student_Developer_Com) for the latest updates & [Discussion Group](https://t.me/Techcpschat) for the lab enquiry**
+- <img src="https://github.com/user-attachments/assets/aa10b8b2-5424-40bc-8911-7969f29f6dae" alt="icon" width="25" height="25"> **Join our [WhatsApp Community](https://whatsapp.com/channel/) for the latest updates**
+- <img src="https://github.com/user-attachments/assets/b9da471b-2f46-4d39-bea9-acdb3b3a23b0" alt="icon" width="25" height="25"> **Follow us on [LinkedIn](www.linkedin.com/in/kailash-parmar-40071b135) for updates and opportunities.**
+- <img src="https://github.com/user-attachments/assets/a045f610-775d-432a-b171-97a2d19718e2" alt="icon" width="25" height="25"> **Follow us on [TwitterX](https://x.com/kailash801) for the latest updates**
+- <img src="https://github.com/user-attachments/assets/84e23456-7ed3-402a-a8a9-5d2fb5b44849" alt="icon" width="25" height="25"> **Follow us on [Instagram](https://instagram.com/_kailash_parmar_/) for the latest updates**
+
+---
+
+# <img src="https://github.com/user-attachments/assets/6ee41001-c795-467c-8d96-06b56c246b9c" alt="icon" width="45" height="45"> [Kailash Parmar](https://www.youtube.com/@kailash_parmar) Don't Forget to like share & subscribe
+
+### Thanks for watching and stay connected :)
+---
