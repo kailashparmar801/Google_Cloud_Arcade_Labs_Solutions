@@ -15,7 +15,16 @@
 
 ### 🚨Copy and run the below commands in Cloud Shell:
 
-```
+---
+
+<div style="padding: 15px; margin: 10px 0;">
+
+<h4>training_ecommerce.model :</h4>
+
+```bash
+
+
+
 connection: "bigquery_public_data_looker"
 
 # include all the views
@@ -88,6 +97,9 @@ explore: events {
 
 ```
 
+</div>
+
+---
 ---
 
 ### Congratulations, you're all done with the lab 😄
