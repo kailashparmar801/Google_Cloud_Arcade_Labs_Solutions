@@ -24,11 +24,11 @@ BG_MAGENTA=$(tput setab 5)
 
 clear
 echo "${BG_BLUE}${BOLD}${WHITE}==================================================${RESET}"
-echo "${BG_BLUE}${BOLD}${WHITE}   WELCOME TO DR ABHISHEK CLOUD TUTORIALS       ${RESET}"
+echo "${BG_BLUE}${BOLD}${WHITE}   WELCOME TO KAILASH PARMAR CLOUD TUTORIALS      ${RESET}"
 echo "${BG_BLUE}${BOLD}${WHITE}==================================================${RESET}"
 echo ""
 echo "${CYAN}${BOLD}⚡ Expertly crafted by Dr. Abhishek Cloud${RESET}"
-echo "${YELLOW}${BOLD}📺 YouTube: ${UNDERLINE}https://www.youtube.com/@drabhishek.5460/videos${RESET}"
+echo "${YELLOW}${BOLD}📺 YouTube: ${UNDERLINE}https://www.youtube.com/@kailash_parmar${RESET}"
 echo ""
 
 # ======================
@@ -142,5 +142,5 @@ echo "${WHITE}${BOLD}🔍 Access your Cloud Spanner database at:${RESET}"
 echo "${BLUE}https://console.cloud.google.com/spanner/instances/banking-ops-instance/databases/banking-ops-db${RESET}"
 echo ""
 echo "${CYAN}${BOLD}💡 For more Google Cloud labs and tutorials:${RESET}"
-echo "${YELLOW}${BOLD}👉 ${UNDERLINE}https://www.youtube.com/@drabhishek.5460/videos${RESET}"
+echo "${YELLOW}${BOLD}👉 ${UNDERLINE}https://www.youtube.com/@kailash_parmar${RESET}"
 echo "${GREEN}${BOLD}🔔 Don't forget to subscribe for daily cloud tutorials!${RESET}"
