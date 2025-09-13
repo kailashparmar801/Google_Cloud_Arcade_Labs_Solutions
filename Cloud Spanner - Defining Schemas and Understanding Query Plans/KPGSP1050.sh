@@ -27,7 +27,7 @@ echo "${BG_BLUE}${BOLD}${WHITE}=================================================
 echo "${BG_BLUE}${BOLD}${WHITE}   WELCOME TO KAILASH PARMAR CLOUD TUTORIALS      ${RESET}"
 echo "${BG_BLUE}${BOLD}${WHITE}==================================================${RESET}"
 echo ""
-echo "${CYAN}${BOLD}⚡ Expertly crafted by Dr. Abhishek Cloud${RESET}"
+echo "${CYAN}${BOLD}⚡ Expertly crafted by Kailash parmar Cloud${RESET}"
 echo "${YELLOW}${BOLD}📺 YouTube: ${UNDERLINE}https://www.youtube.com/@kailash_parmar${RESET}"
 echo ""
 
@@ -135,7 +135,7 @@ echo ""
 #  COMPLETION MESSAGE
 # ======================
 echo "${BG_GREEN}${BLACK}${BOLD}==================================================${RESET}"
-echo "${BG_GREEN}${BLACK}${BOLD}   LAB COMPLETE!   ${RESET}"
+echo "${BG_GREEN}${BLACK}${BOLD}                    LAB COMPLETE!                 ${RESET}"
 echo "${BG_GREEN}${BLACK}${BOLD}==================================================${RESET}"
 echo ""
 echo "${WHITE}${BOLD}🔍 Access your Cloud Spanner database at:${RESET}"
