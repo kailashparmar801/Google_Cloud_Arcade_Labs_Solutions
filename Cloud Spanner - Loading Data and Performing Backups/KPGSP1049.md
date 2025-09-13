@@ -16,7 +16,7 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/blob/main/Cloud%20Spanner%20-%20Loading%20Data%20and%20Performing%20Backups/KPGSP1049.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Cloud%20Spanner%20-%20Loading%20Data%20and%20Performing%20Backups/KPGSP1049.sh
 
 sudo chmod +x KPGSP1049.sh
 
