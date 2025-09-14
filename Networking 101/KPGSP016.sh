@@ -56,3 +56,4 @@ gcloud compute firewall-rules create nw101-allow-rdp \
   --network taw-custom-network
 
 echo " Congratulations! You have completed the lab!"
+echo " Susbribe to my Channel https://www.youtube.com/@kailash_parmar"
