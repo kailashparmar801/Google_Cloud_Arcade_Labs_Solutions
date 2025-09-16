@@ -1,7 +1,5 @@
 
-### 💡 Lab Link: [VPC Flow Logs - Analyzing Network Traffic - GSP212](https://www.cloudskillsboost.google/focuses/67857?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=51165909)
-
-### 🚀 Lab Solution [Watch Here](https://youtu.be/3Vw1p5itVrA)
+### 💡 Lab Link: [Dataplex: Qwik Start - Command Line - GSP1144](https://www.cloudskillsboost.google/focuses/62708?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=53499124)
 
 ---
 
@@ -16,11 +14,14 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/VPC%20Flow%20Logs%20-%20Analyzing%20Network%20Traffic/KPGSP212.sh
+export REGION=
+```
+```
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Dataplex%3A%20Qwik%20Start%20-%20Command%20Line/KPGSP1144.sh
 
-sudo chmod +x KPGSP212.sh
+sudo chmod +x KPGSP1144.sh
 
-./KPGSP212.sh
+./KPGSP1144.sh
 ```
 
 ---
