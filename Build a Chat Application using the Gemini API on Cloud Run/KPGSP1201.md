@@ -15,12 +15,23 @@
 
 ### 🚨Copy and run the below commands in Cloud Shell:
 
+## Step 1
+
 ```
 curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Build%20a%20Chat%20Application%20using%20the%20Gemini%20API%20on%20Cloud%20Run/KPGSP1201.sh
 
 sudo chmod +x KPGSP1201.sh
 
 ./KPGSP1201.sh
+```
+## Step 2
+```
+gcloud auth login --quiet
+```
+
+## Step 3
+```
+./myqwiklab-gsp1201.sh
 ```
 
 ---
