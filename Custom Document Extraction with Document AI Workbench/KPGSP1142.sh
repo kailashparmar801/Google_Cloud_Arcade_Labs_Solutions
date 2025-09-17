@@ -5,7 +5,7 @@ pattern=(
 "**********************************************************"
 "**                                                      **"
 "**                 S U B S C R I B E  TO                **"
-"**                  MY QWIKLAB SOLUTION                 **"
+"**                KAILASH PARMAR SOLUTION               **"
 "**                                                      **"
 "**********************************************************"
 )
@@ -93,6 +93,6 @@ echo ""
 # ----------------------------------------------
 echo "==============================================="
 echo "✅ Prep complete! Time to follow through the UI steps above."
-echo "🚀 Remember to Subscribe to Aminex on YouTube!"
-echo "👉 https://www.youtube.com/@MyQwiklab"
+echo "🚀 Remember to Subscribe to Kailash Parmar on YouTube!"
+echo "👉 https://www.youtube.com/@kailash_parmar"
 echo "==============================================="
