@@ -16,7 +16,7 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/blob/main/Using%20Specialized%20Processors%20with%20Document%20AI%20(Python)/KPGSP1140.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Using%20Specialized%20Processors%20with%20Document%20AI%20(Python)/KPGSP1140.sh
 
 sudo chmod +x KPGSP1140.sh
 
