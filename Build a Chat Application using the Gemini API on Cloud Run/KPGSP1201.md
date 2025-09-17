@@ -31,7 +31,7 @@ gcloud auth login --quiet
 
 ## Step 3
 ```
-./myqwiklab-gsp1201.sh
+./KPGSP1201.sh
 ```
 
 ---
