@@ -18,6 +18,7 @@
 ```
 export ZONE=
 ```
+```
 curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/App%20Dev%3A%20Setting%20up%20a%20Development%20Environment%20-%20Python/KPGSP183.sh
 
 sudo chmod +x KPGSP183.sh
