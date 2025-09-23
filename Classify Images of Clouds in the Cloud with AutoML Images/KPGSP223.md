@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [VPC Flow Logs - Analyzing Network Traffic - GSP212](https://www.cloudskillsboost.google/focuses/67857?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=51165909)
+### 💡 Lab Link: [Classify Images of Clouds in the Cloud with AutoML Images - GSP223](https://www.cloudskillsboost.google/focuses/8406?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=53919940)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/3Vw1p5itVrA)
 
@@ -16,11 +16,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/VPC%20Flow%20Logs%20-%20Analyzing%20Network%20Traffic/KPGSP212.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Classify%20Images%20of%20Clouds%20in%20the%20Cloud%20with%20AutoML%20Images/KPGSP223.sh
 
-sudo chmod +x KPGSP212.sh
+sudo chmod +x KPGSP223.sh
 
-./KPGSP212.sh
+./KPGSP223.sh
 ```
 
 ---
