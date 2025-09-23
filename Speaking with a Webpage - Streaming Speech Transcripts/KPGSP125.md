@@ -16,6 +16,9 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
+Network Management API
+```
+```
 curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Speaking%20with%20a%20Webpage%20-%20Streaming%20Speech%20Transcripts/KPGSP125.sh
 
 sudo chmod +x KPGSP125.sh
