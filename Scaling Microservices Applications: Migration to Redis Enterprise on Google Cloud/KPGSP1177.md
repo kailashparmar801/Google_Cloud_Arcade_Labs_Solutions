@@ -16,11 +16,11 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/VPC%20Flow%20Logs%20-%20Analyzing%20Network%20Traffic/KPGSP212.sh
+curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/Scaling%20Microservices%20Applications:%20Migration%20to%20Redis%20Enterprise%20on%20Google%20Cloud/KPGSP1177.sh
 
-sudo chmod +x KPGSP212.sh
+sudo chmod +x KPGSP1177.sh
 
-./KPGSP212.sh
+./KPGSP1177.sh
 ```
 
 ---
