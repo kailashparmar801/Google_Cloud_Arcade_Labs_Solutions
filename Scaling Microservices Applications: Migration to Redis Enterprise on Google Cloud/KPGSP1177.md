@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [VPC Flow Logs - Analyzing Network Traffic - GSP212](https://www.cloudskillsboost.google/focuses/67857?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=51165909)
+### 💡 Lab Link: [Scaling Microservices Applications: Migration to Redis Enterprise on Google Cloud - GSP1177](https://www.cloudskillsboost.google/focuses/74654?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=53903811)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/3Vw1p5itVrA)
 
