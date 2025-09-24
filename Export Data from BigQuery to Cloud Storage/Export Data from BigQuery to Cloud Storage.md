@@ -1,5 +1,5 @@
 
-### 💡 Lab Link: [VPC Flow Logs - Analyzing Network Traffic - GSP212](https://www.cloudskillsboost.google/focuses/67857?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=51165909)
+### 💡 Lab Link: [Export Data from BigQuery to Cloud Storage](https://www.cloudskillsboost.google/games/6465/labs/40644)
 
 ### 🚀 Lab Solution [Watch Here](https://youtu.be/3Vw1p5itVrA)
 
@@ -16,13 +16,17 @@
 ### 🚨Copy and run the below commands in Cloud Shell:
 
 ```
-curl -LO raw.githubusercontent.com/kailashparmar801/Google_Cloud_Arcade_Labs_Solutions/master/VPC%20Flow%20Logs%20-%20Analyzing%20Network%20Traffic/KPGSP212.sh
-
-sudo chmod +x KPGSP212.sh
-
-./KPGSP212.sh
+bq load --source_format=CSV --autodetect customer_details.customers customers.csv
 ```
-
+```
+bq query --use_legacy_sql=false --destination_table customer_details.male_customers 'SELECT CustomerID, Gender FROM customer_details.customers WHERE Gender="Male"'
+```
+```
+bq extract customer_details.male_customers gs://YOUR_BUCKET_NAME-bucket/exported_male_customers.csv
+```
+```
+bq query --use_legacy_sql=false --replace --destination_table=customer_details.male_customers 'SELECT CustomerID, Gender FROM customer_details.customers WHERE Gender = "Male"'
+```
 ---
 
 ### Congratulations, you're all done with the lab 😄
